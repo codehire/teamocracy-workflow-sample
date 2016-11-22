@@ -1,0 +1,13 @@
+{
+  "set_status" : "applied",
+  "actions" : [
+    {
+      "type" : "slack",
+      "action" : "send_message",
+      "attributes" : {
+        "channel" : "general",
+        "message" : "{{ applicant.name }} just applied for {{ role.name }}"
+      }
+    }
+  ]
+}

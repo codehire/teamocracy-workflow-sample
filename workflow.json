@@ -1,0 +1,7 @@
+{
+  "name" : "My Workflow",
+  "triggers" : [
+    "new_applicant"
+  ]
+}
+
